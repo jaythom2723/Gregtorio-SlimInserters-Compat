@@ -15,6 +15,8 @@ end
 greg_slim_compat.util.slim_inserter_technology_patch = function(technology_patch)
     for tech_name, effects in pairs(technology_patch) do
         for _, effect in pairs(effects) do
+            if not data.raw.recipe[effect.recipe] then goto continue end
+
             -- check if the technology already contains the recipe unlocks
             if _check_recipe_unlock(data.raw.technology[tech_name].effects, effect) then goto continue end
 

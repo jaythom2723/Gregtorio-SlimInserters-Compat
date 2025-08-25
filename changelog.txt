@@ -1,0 +1,5 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 8.25.2025
+  Bugfixes:
+    - Added a check to see if the long-slim-inserter recipes existed, to prevent crashes regarding the bobinserters mod
