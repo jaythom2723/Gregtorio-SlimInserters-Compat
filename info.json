@@ -1,0 +1,8 @@
+{
+    "name": "greg-slim-compat",
+    "title": "Gregtorio Slim Inserter Compatibility Patch",
+    "author": "Rify",
+    "version": "1.0.0",
+    "factorio_version": "2.0",
+    "dependencies": ["base", "Gregtorio", "Kux-SlimInserters"]
+}
